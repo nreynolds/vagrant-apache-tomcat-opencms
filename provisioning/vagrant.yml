@@ -1,0 +1,11 @@
+---
+- hosts: all
+  sudo: true
+  tasks:
+  - name: update apt
+    apt: update_cache=yes
+  - include: tasks/tools.yml  
+  - include: tasks/apache.yml 
+  - include: tasks/vim.yml
+  - include: tasks/java.yml
+  - include: tasks/mysql.yml
