@@ -1,4 +1,0 @@
----
-- name: install vim
-  apt: name=vim state=present
-  apt: name=vim-nox state=present

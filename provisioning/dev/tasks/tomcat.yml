@@ -1,0 +1,8 @@
+---
+ - name: Install tomcat
+   apt: pkg={{ item }}
+   sudo: yes
+   with_items:
+     - tomcat7
+     - tomcat7-admin
+  

@@ -16,3 +16,5 @@
     - python-pycurl
     - libcurl4-gnutls-dev
     - fontconfig
+    - vim
+    - vim-nox

@@ -4,8 +4,8 @@
   tasks:
   - name: update apt
     apt: update_cache=yes
-  - include: tasks/tools.yml  
-  - include: tasks/apache.yml 
-  - include: tasks/vim.yml
-  - include: tasks/java.yml
-  - include: tasks/mysql.yml
+  - include: common/tasks/tools.yml
+  - include: dev/tasks/apache.yml
+  - include: dev/tasks/java.yml
+  - include: dev/tasks/mysql.yml
+  - include: dev/tasks/tomcat.yml
